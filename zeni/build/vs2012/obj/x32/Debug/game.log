@@ -1,0 +1,42 @@
+﻿Build started 9/25/2013 7:23:24 PM.
+     1>Project "H:\eecs494\zenilib\build\vs2012\game.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         xcopy ..\..\dev\pc_ ..\.. /E /Y
+         xcopy ..\..\jni\external\bin\x32 ..\..\bin\d32 /E /Y
+         :VCEnd
+         ..\..\dev\pc_\Info.plist
+         ..\..\dev\pc_\Info_d.plist
+         ..\..\dev\pc_\assets\icons\icon.png
+         ..\..\dev\pc_\assets\sfx\104469__dkmedic__world.ogg
+         ..\..\dev\pc_\Resources\Credits.rtf
+         ..\..\dev\pc_\Resources\zenilib.icns
+         6 File(s) copied
+         ..\..\jni\external\bin\x32\msvcp100.dll
+         ..\..\jni\external\bin\x32\msvcp110.dll
+         ..\..\jni\external\bin\x32\msvcr100.dll
+         ..\..\jni\external\bin\x32\msvcr110.dll
+         ..\..\jni\external\bin\x32\soft_oal.dll
+         ..\..\jni\external\bin\x32\vccorlib110.dll
+         6 File(s) copied
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\jni\application /I..\..\jni\external\zenilib /I..\..\jni\external\zenilib\zeni_rest /I..\..\jni\external\zenilib\zeni_graphics /I..\..\jni\external\zenilib\zeni_net /I..\..\jni\external\zenilib\zeni_core /I..\..\jni\external\zenilib\zeni_audio /I..\..\jni\external\libvorbis\include /I..\..\jni\external\libogg\include /I..\..\jni\external\zenilib\zeni /I..\..\jni\external\sdl_net /I..\..\jni\external\sdl /I..\..\jni\external\tinyxml /ZI /nologo /W4 /WX- /Od /Oy- /D _WINDOWS /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _DEBUG /D DEBUG /D TEST_NASTY_CONDITIONS /D DISABLE_CPP11 /D GLEW_NO_GLU /D ZLIB_DLL /D "OGG_DLL=__declspec(dllimport)" /D "VORBIS_DLL=__declspec(dllimport)" /D "VORBISFILE_DLL=__declspec(dllimport)" /D "LIB3DSAPI=__declspec(dllimport)" /D "TINYXML_DLL=__declspec(dllimport)" /D TINYXML_EXT=extern /D "ZENI_DLL=__declspec(dllimport)" /D ZENI_EXT=extern /D "ZENI_AUDIO_DLL=__declspec(dllimport)" /D ZENI_AUDIO_EXT=extern /D "ZENI_CORE_DLL=__declspec(dllimport)" /D ZENI_CORE_EXT=extern /D "ZENI_GRAPHICS_DLL=__declspec(dllimport)" /D ZENI_GRAPHICS_EXT=extern /D "ZENI_NET_DLL=__declspec(dllimport)" /D ZENI_NET_EXT=extern /D "ZENI_REST_DLL=__declspec(dllimport)" /D ZENI_REST_EXT=extern /D ENABLE_XINPUT /D _MBCS /Gm /EHsc /RTCc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\\" /Fd"..\..\bin\d32\game.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\jni\application\bootstrap.cpp
+         bootstrap.cpp
+     1>h:\eecs494\zenilib\jni\application\bootstrap.cpp(142): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>h:\eecs494\zenilib\jni\application\bootstrap.cpp(165): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>h:\eecs494\zenilib\jni\application\bootstrap.cpp(171): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>h:\eecs494\zenilib\jni\application\bootstrap.cpp(176): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>h:\eecs494\zenilib\jni\application\bootstrap.cpp(181): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>h:\eecs494\zenilib\jni\application\bootstrap.cpp(186): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>h:\eecs494\zenilib\jni\application\bootstrap.cpp(198): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>h:\eecs494\zenilib\jni\application\bootstrap.cpp(202): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>h:\eecs494\zenilib\jni\application\bootstrap.cpp(206): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>h:\eecs494\zenilib\jni\application\bootstrap.cpp(210): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>h:\eecs494\zenilib\jni\application\bootstrap.cpp(312): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\d32\game.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\bin\d32 glu32.lib opengl32.lib local_SDLmain_d.lib zeni_rest_d.lib zeni_graphics_d.lib zeni_net_d.lib zeni_core_d.lib zeni_audio_d.lib zeni_d.lib local_GLEW_d.lib local_SDL_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\bin\d32\game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\d32\game.lib" /MACHINE:X86 obj\x32\Debug\bootstrap.obj
+         game.vcxproj -> H:\eecs494\zenilib\build\vs2012\..\..\bin\d32\game.exe
+     1>Done Building Project "H:\eecs494\zenilib\build\vs2012\game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.20

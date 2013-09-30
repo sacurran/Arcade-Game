@@ -1,0 +1,223 @@
+Tgame
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution Prebuild /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/Script-9607AE1010C857E500CD1376.sh
+cCompileC obj/Debug/game.build/Objects-normal/x86_64/bootstrap.o /Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000508EC8BF0000000000006730
+t1351534783
+s26416
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000520ED16D000000000002DAD0
+t1376702829
+s187088
+
+N/Users/stefficurran/Desktop/zeni/build/xcode4/../../game_d.app
+t2
+s0
+
+N/Users/stefficurran/Desktop/zeni/build/xcode4/../../game_d.app/Contents/MacOS/game_d
+t2
+s0
+
+N/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp
+c00000000524371700000000000003085
+t1380151664
+s12421
+i<zenilib.h>
+i<stdio.h>
+i<stdlib.h>
+i<time.h>
+
+N/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/external/zenilib/zenilib.h
+c0000000052257E4A00000000000008B5
+t1378188874
+s2229
+
+N/Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/Objects-normal/x86_64/bootstrap.o
+t2
+s0
+
+N/Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/Objects-normal/x86_64/game_d.LinkFileList
+c00000000524517320000000000000065
+t1380259634
+s101
+
+N/Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/Script-9607AE1010C857E500CD1376.sh
+c000000005245173200000000000007CA
+t1380259634
+s1994
+
+N/usr/include/stdio.h
+c00000000509C6AB20000000000004523
+t1352428210
+s17699
+
+N/usr/include/stdlib.h
+c00000000509C6AB20000000000003089
+t1352428210
+s12425
+
+N/usr/include/time.h
+c00000000509C6AB2000000000000178E
+t1352428210
+s6030
+
+CBuild AST from /Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3f9078b24ef5b741^e2b187b24ef5b741^---0#1#0#--18"Check dependencies36"B723B930-F877-4302-92EE-7A74D034F6AE-
+
+CCompileC obj/Debug/game.build/Objects-normal/x86_64/bootstrap.o /Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s401952436.035678
+e401952440.806089
+r0
+xCompileC
+xobj/Debug/game.build/Objects-normal/x86_64/bootstrap.o
+x/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:21:1: error: unknown type name 'CONST'
+oCONST int mazeSize=15;
+o^
+o/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:21:7: error: expected unqualified-id
+oCONST int mazeSize=15;
+o      ^
+o/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:22:1: error: unknown type name 'CONST'
+oCONST float cellSize=64.0;
+o^
+o/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:22:7: error: expected unqualified-id
+oCONST float cellSize=64.0;
+o      ^
+o/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:143:9: error: use of undeclared identifier 'mazeSize'
+o                width=mazeSize+6;
+o                      ^
+o/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:144:10: error: use of undeclared identifier 'mazeSize'
+o                height=mazeSize;
+o                       ^
+o/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:282:26: error: use of undeclared identifier 'cellSize'
+o                Point2f base=Point2f(x*cellSize,y*cellSize);
+o                                       ^
+o/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:293:30: error: use of undeclared identifier 'cellSize'
+o                                wallPoint=Point2f(base.x+cellSize,base.y);
+o                                                         ^
+o/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:301:37: error: use of undeclared identifier 'cellSize'
+o                                wallPoint=Point2f(base.x,base.y+cellSize);
+o                                                                ^
+o/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:354:3: warning: field 'm_room' will be initialized after field 'm_time_passed' [-Wreorder]
+o                m_room(Point2f(0,0),Vector2f(64,64)),
+o                ^
+o/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:359:37: error: use of undeclared identifier 'cellSize'
+o        m_room.setPosition(Point2f(randy.x*cellSize,randy.y*cellSize));
+o                                           ^
+o/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:430:3: error: use of undeclared identifier 'Escape'
+o                Escape;
+o                ^
+o/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:87:9: warning: private field 'm_speed' is not used [-Wunused-private-field]
+o  float m_speed;
+o        ^
+o/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:319:11: warning: private field 'grid' is not used [-Wunused-private-field]
+oPoint2f** grid;
+o          ^
+o/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:320:6: warning: private field 'first' is not used [-Wunused-private-field]
+obool first;
+o     ^
+o4 warnings and 11 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cppe46909b44ef5b741^37c6ceb84ef5b741^-3034"/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:21:1: error: unknown type name 'CONST'CONST int mazeSize=15;^/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:21:7: error: expected unqualified-idCONST int mazeSize=15;      ^/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:22:1: error: unknown type name 'CONST'CONST float cellSize=64.0;^/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:22:7: error: expected unqualified-idCONST float cellSize=64.0;      ^/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:143:9: error: use of undeclared identifier 'mazeSize'                width=mazeSize+6;                      ^/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:144:10: error: use of undeclared identifier 'mazeSize'                height=mazeSize;                       ^/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:282:26: error: use of undeclared identifier 'cellSize'                Point2f base=Point2f(x*cellSize,y*cellSize);                                       ^/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:293:30: error: use of undeclared identifier 'cellSize'                                wallPoint=Point2f(base.x+cellSize,base.y);                                                         ^/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:301:37: error: use of undeclared identifier 'cellSize'                                wallPoint=Point2f(base.x,base.y+cellSize);                                                                ^/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:354:3: warning: field 'm_room' will be initialized after field 'm_time_passed' [-Wreorder]                m_room(Point2f(0,0),Vector2f(64,64)),                ^/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:359:37: error: use of undeclared identifier 'cellSize'        m_room.setPosition(Point2f(randy.x*cellSize,randy.y*cellSize));                                           ^/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:430:3: error: use of undeclared identifier 'Escape'                Escape;                ^/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:87:9: warning: private field 'm_speed' is not used [-Wunused-private-field]  float m_speed;        ^/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:319:11: warning: private field 'grid' is not used [-Wunused-private-field]Point2f** grid;          ^/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp:320:6: warning: private field 'first' is not used [-Wunused-private-field]bool first;     ^4 warnings and 11 errors generated.15(36%IDEClangDiagnosticActivityLogMessage2@25"Unknown type name 'CONST'-401952440#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@78"file://localhost/Users/stefficurran/Desktop/zeni/jni/application/bootstrap.cpp0000000000000000^20#0#20#0#555#0#11"Parse Issue--2@23"Expected unqualified-id-401952440#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/stefficurran/Desktop/zeni/jni/application/bootstrap.cpp0000000000000000^20#6#20#6#561#0#11"Parse Issue--2@25"Unknown type name 'CONST'-401952440#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/stefficurran/Desktop/zeni/jni/application/bootstrap.cpp0000000000000000^21#0#21#0#579#0#11"Parse Issue--2@23"Expected unqualified-id-401952440#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/stefficurran/Desktop/zeni/jni/application/bootstrap.cpp0000000000000000^21#6#21#6#585#0#11"Parse Issue--2@39"Use of undeclared identifier 'mazeSize'-401952440#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/stefficurran/Desktop/zeni/jni/application/bootstrap.cpp0000000000000000^142#8#142#8#3652#0#14"Semantic Issue--2@39"Use of undeclared identifier 'mazeSize'-401952440#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/stefficurran/Desktop/zeni/jni/application/bootstrap.cpp0000000000000000^143#9#143#9#3674#0#14"Semantic Issue--2@39"Use of undeclared identifier 'cellSize'-401952440#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/stefficurran/Desktop/zeni/jni/application/bootstrap.cpp0000000000000000^281#25#281#25#7364#0#14"Semantic Issue--2@39"Use of undeclared identifier 'cellSize'-401952440#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/stefficurran/Desktop/zeni/jni/application/bootstrap.cpp0000000000000000^292#29#292#29#7602#0#14"Semantic Issue--2@39"Use of undeclared identifier 'cellSize'-401952440#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/stefficurran/Desktop/zeni/jni/application/bootstrap.cpp0000000000000000^300#36#300#36#7788#0#14"Semantic Issue--2@62"Field 'm_room' will be initialized after field 'm_time_passed'-401952440#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/stefficurran/Desktop/zeni/jni/application/bootstrap.cpp0000000000000000^353#2#353#2#8774#0#14"Semantic Issue--2@39"Use of undeclared identifier 'cellSize'-401952440#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/stefficurran/Desktop/zeni/jni/application/bootstrap.cpp0000000000000000^358#36#358#36#8946#0#14"Semantic Issue--2@37"Use of undeclared identifier 'Escape'-401952440#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/stefficurran/Desktop/zeni/jni/application/bootstrap.cpp0000000000000000^429#2#429#2#10776#0#14"Semantic Issue--2@35"Private field 'm_speed' is not used-401952440#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/stefficurran/Desktop/zeni/jni/application/bootstrap.cpp0000000000000000^86#8#86#8#2696#0#19"Unused Entity Issue--2@32"Private field 'grid' is not used-401952440#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/stefficurran/Desktop/zeni/jni/application/bootstrap.cpp0000000000000000^318#10#318#10#8121#0#19"Unused Entity Issue--2@33"Private field 'first' is not used-401952440#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/stefficurran/Desktop/zeni/jni/application/bootstrap.cpp0000000000000000^319#5#319#5#8133#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@97"file://localhost/Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp0000000000000000^3114"CompileC obj/Debug/game.build/Objects-normal/x86_64/bootstrap.o ../../jni/application/bootstrap.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/stefficurran/Desktop/zeni/build/xcode4    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -D_MACOSX -D_DEBUG -DDEBUG -DTEST_NASTY_CONDITIONS -DDISABLE_CPP11 -DGLEW_NO_GLU -DOGG_DLL= -DVORBIS_DLL= -DVORBISFILE_DLL= -DDISABLE_DX9 -DDISABLE_WGL -DTINYXML_DLL= -DTINYXML_EXT= -DZENI_DLL= -DZENI_EXT= -DZENI_AUDIO_DLL= -DZENI_AUDIO_EXT= -DZENI_CORE_DLL= -DZENI_CORE_EXT= -DZENI_GRAPHICS_DLL= -DZENI_GRAPHICS_EXT= -DZENI_NET_DLL= -DZENI_NET_EXT= -DZENI_REST_DLL= -DZENI_REST_EXT= -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/game_d-generated-files.hmap -I/Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/game_d-own-target-headers.hmap -I/Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/game_d-all-target-headers.hmap -iquote /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/game_d-project-headers.hmap -I/Users/stefficurran/Desktop/zeni/build/xcode4/../../include -I../../jni/application -I../../jni/external/zenilib -I../../jni/external/zenilib/zeni_rest -I../../jni/external/zenilib/zeni_graphics -I../../jni/external/zenilib/zeni_net -I../../jni/external/zenilib/zeni_core -I../../jni/external/zenilib/zeni_audio -I../../jni/external/libvorbis/include -I../../jni/external/libogg/include -I../../jni/external/zenilib/zeni -I../../jni/external/sdl_net -I../../jni/external/sdl -I../../jni/external/tinyxml -I/Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/DerivedSources/x86_64 -I/Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/DerivedSources -Wall -F/Users/stefficurran/Desktop/zeni/build/xcode4/../.. -Qunused-arguments -stdlib=libc++ -ffast-math -fpch-preprocess -Wall -MMD -MT dependencies -MF /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/Objects-normal/x86_64/bootstrap.d --serialize-diagnostics /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/Objects-normal/x86_64/bootstrap.dia -c /Users/stefficurran/Desktop/zeni/build/xcode4/../../jni/application/bootstrap.cpp -o /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/Objects-normal/x86_64/bootstrap.o36"7F8EAC37-5200-41E5-8DC7-7946D534497A-
+
+CLd /Users/stefficurran/Desktop/zeni/build/xcode4/../../game_d.app/Contents/MacOS/game_d normal x86_64
+r0
+
+CPhaseScriptExecution Prebuild /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/Script-9607AE1010C857E500CD1376.sh
+s401952434.538069
+e401952436.026837
+r1
+xPhaseScriptExecution
+xPrebuild
+x/Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/Script-9607AE1010C857E500CD1376.sh
+obuilding file list ... done
+o./
+o
+osent 307 bytes  received 26 bytes  666.00 bytes/sec
+ototal size is 379401  speedup is 1139.34
+obuilding file list ... done
+ocreated directory ../../game_d.app/Contents/MacOS
+o./
+oliblocal_3ds_d.dylib
+oliblocal_GLEW_d.dylib
+oliblocal_SDL_d.dylib
+oliblocal_SDL_net_d.dylib
+oliblocal_angle_d.dylib
+oliblocal_freetype2_d.dylib
+oliblocal_ogg_d.dylib
+oliblocal_png_d.dylib
+oliblocal_tinyxml_d.dylib
+oliblocal_vorbis_d.dylib
+oliblocal_vorbisfile_d.dylib
+oliblocal_z_d.dylib
+olibzeni_audio_d.dylib
+olibzeni_core_d.dylib
+olibzeni_d.dylib
+olibzeni_graphics_d.dylib
+olibzeni_net_d.dylib
+olibzeni_rest_d.dylib
+o
+osent 20973066 bytes  received 422 bytes  13982325.33 bytes/sec
+ototal size is 20969200  speedup is 1.00
+obuilding file list ... done
+ocreated directory ../../game_d.app/Contents/assets
+o./
+ostderr.txt
+ostdout.txt
+oconfig/
+oconfig/colors.xml
+oconfig/fonts.xml
+oconfig/sounds.xml
+oconfig/textures.xml
+oconfig/zenilib.xml
+oconfig/zenilib.xml.bak
+ofonts/
+ofonts/FORGOTTE.TTF
+oicons/
+oicons/icon.png
+osfx/
+osfx/104469__dkmedic__world.ogg
+osfx/README.txt
+oshaders/
+oshaders/shader.frag
+oshaders/shader.vert
+otextures/
+otextures/Thumbs.db
+otextures/boom.png
+otextures/bullet.png
+otextures/couple.png
+otextures/room.png
+otextures/wall.png
+o
+osent 235061 bytes  received 502 bytes  471126.00 bytes/sec
+ototal size is 233477  speedup is 0.99
+obuilding file list ... done
+ocreated directory ../../game_d.app/Contents/Resources
+o./
+oCredits.rtf
+ozenilib.icns
+o
+osent 317487 bytes  received 70 bytes  635114.00 bytes/sec
+ototal size is 317227  speedup is 1.00
+obuilding file list ... done
+oInfo_d.plist
+o
+osent 1045 bytes  received 42 bytes  2174.00 bytes/sec
+ototal size is 909  speedup is 0.84
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Run custom shell script 'Prebuild'e7ab8cb24ef5b741^12de06b44ef5b741^-1646"building file list ... done./sent 307 bytes  received 26 bytes  666.00 bytes/sectotal size is 379401  speedup is 1139.34building file list ... donecreated directory ../../game_d.app/Contents/MacOS./liblocal_3ds_d.dylibliblocal_GLEW_d.dylibliblocal_SDL_d.dylibliblocal_SDL_net_d.dylibliblocal_angle_d.dylibliblocal_freetype2_d.dylibliblocal_ogg_d.dylibliblocal_png_d.dylibliblocal_tinyxml_d.dylibliblocal_vorbis_d.dylibliblocal_vorbisfile_d.dylibliblocal_z_d.dyliblibzeni_audio_d.dyliblibzeni_core_d.dyliblibzeni_d.dyliblibzeni_graphics_d.dyliblibzeni_net_d.dyliblibzeni_rest_d.dylibsent 20973066 bytes  received 422 bytes  13982325.33 bytes/sectotal size is 20969200  speedup is 1.00building file list ... donecreated directory ../../game_d.app/Contents/assets./stderr.txtstdout.txtconfig/config/colors.xmlconfig/fonts.xmlconfig/sounds.xmlconfig/textures.xmlconfig/zenilib.xmlconfig/zenilib.xml.bakfonts/fonts/FORGOTTE.TTFicons/icons/icon.pngsfx/sfx/104469__dkmedic__world.oggsfx/README.txtshaders/shaders/shader.fragshaders/shader.verttextures/textures/Thumbs.dbtextures/boom.pngtextures/bullet.pngtextures/couple.pngtextures/room.pngtextures/wall.pngsent 235061 bytes  received 502 bytes  471126.00 bytes/sectotal size is 233477  speedup is 0.99building file list ... donecreated directory ../../game_d.app/Contents/Resources./Credits.rtfzenilib.icnssent 317487 bytes  received 70 bytes  635114.00 bytes/sectotal size is 317227  speedup is 1.00building file list ... doneInfo_d.plistsent 1045 bytes  received 42 bytes  2174.00 bytes/sectotal size is 909  speedup is 0.8469(21%IDEActivityLogMessage2@28"building file list ... done-401952434#0#28#-0#-----2@3"./-401952434#28#3#-0#-----2@52"sent 307 bytes  received 26 bytes  666.00 bytes/sec-401952434#32#52#-0#-----2@41"total size is 379401  speedup is 1139.34-401952434#84#41#-0#-----2@28"building file list ... done-401952434#125#28#-0#-----2@50"created directory ../../game_d.app/Contents/MacOS-401952434#153#50#-0#-----2@3"./-401952434#203#3#-0#-----2@21"liblocal_3ds_d.dylib-401952434#206#21#-0#-----2@22"liblocal_GLEW_d.dylib-401952434#227#22#-0#-----2@21"liblocal_SDL_d.dylib-401952434#249#21#-0#-----2@25"liblocal_SDL_net_d.dylib-401952434#270#25#-0#-----2@23"liblocal_angle_d.dylib-401952435#295#23#-0#-----2@27"liblocal_freetype2_d.dylib-401952435#318#27#-0#-----2@21"liblocal_ogg_d.dylib-401952435#345#21#-0#-----2@21"liblocal_png_d.dylib-401952435#366#21#-0#-----2@25"liblocal_tinyxml_d.dylib-401952435#387#25#-0#-----2@24"liblocal_vorbis_d.dylib-401952435#412#24#-0#-----2@28"liblocal_vorbisfile_d.dylib-401952435#436#28#-0#-----2@19"liblocal_z_d.dylib-401952435#464#19#-0#-----2@22"libzeni_audio_d.dylib-401952435#483#22#-0#-----2@21"libzeni_core_d.dylib-401952435#505#21#-0#-----2@16"libzeni_d.dylib-401952435#526#16#-0#-----2@25"libzeni_graphics_d.dylib-401952435#542#25#-0#-----2@20"libzeni_net_d.dylib-401952435#567#20#-0#-----2@21"libzeni_rest_d.dylib-401952435#587#21#-0#-----2@63"sent 20973066 bytes  received 422 bytes  13982325.33 bytes/sec-401952435#609#63#-0#-----2@40"total size is 20969200  speedup is 1.00-401952435#672#40#-0#-----2@28"building file list ... done-401952435#712#28#-0#-----2@51"created directory ../../game_d.app/Contents/assets-401952435#740#51#-0#-----2@3"./-401952435#791#3#-0#-----2@11"stderr.txt-401952435#794#11#-0#-----2@11"stdout.txt-401952435#805#11#-0#-----2@8"config/-401952435#816#8#-0#-----2@18"config/colors.xml-401952435#824#18#-0#-----2@17"config/fonts.xml-401952435#842#17#-0#-----2@18"config/sounds.xml-401952435#859#18#-0#-----2@20"config/textures.xml-401952435#877#20#-0#-----2@19"config/zenilib.xml-401952435#897#19#-0#-----2@23"config/zenilib.xml.bak-401952435#916#23#-0#-----2@7"fonts/-401952435#939#7#-0#-----2@19"fonts/FORGOTTE.TTF-401952435#946#19#-0#-----2@7"icons/-401952435#965#7#-0#-----2@15"icons/icon.png-401952435#972#15#-0#-----2@5"sfx/-401952435#987#5#-0#-----2@31"sfx/104469__dkmedic__world.ogg-401952435#992#31#-0#-----2@15"sfx/README.txt-401952435#1023#15#-0#-----2@9"shaders/-401952435#1038#9#-0#-----2@20"shaders/shader.frag-401952435#1047#20#-0#-----2@20"shaders/shader.vert-401952435#1067#20#-0#-----2@10"textures/-401952435#1087#10#-0#-----2@19"textures/Thumbs.db-401952435#1097#19#-0#-----2@18"textures/boom.png-401952435#1116#18#-0#-----2@20"textures/bullet.png-401952435#1134#20#-0#-----2@20"textures/couple.png-401952435#1154#20#-0#-----2@18"textures/room.png-401952435#1174#18#-0#-----2@18"textures/wall.png-401952435#1192#18#-0#-----2@59"sent 235061 bytes  received 502 bytes  471126.00 bytes/sec-401952435#1211#59#-0#-----2@38"total size is 233477  speedup is 0.99-401952435#1270#38#-0#-----2@28"building file list ... done-401952435#1308#28#-0#-----2@54"created directory ../../game_d.app/Contents/Resources-401952435#1336#54#-0#-----2@3"./-401952435#1390#3#-0#-----2@12"Credits.rtf-401952435#1393#12#-0#-----2@13"zenilib.icns-401952435#1405#13#-0#-----2@58"sent 317487 bytes  received 70 bytes  635114.00 bytes/sec-401952435#1419#58#-0#-----2@38"total size is 317227  speedup is 1.00-401952435#1477#38#-0#-----2@28"building file list ... done-401952435#1515#28#-0#-----2@13"Info_d.plist-401952435#1543#13#-0#-----2@54"sent 1045 bytes  received 42 bytes  2174.00 bytes/sec-401952436#1557#54#-0#-----2@35"total size is 909  speedup is 0.84-401952436#1611#35#-0#-----0#0#0#--19317"PhaseScriptExecution Prebuild obj/Debug/game.build/Script-9607AE1010C857E500CD1376.sh    cd /Users/stefficurran/Desktop/zeni/build/xcode4    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER stefficurran    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS x86_64    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/../..    setenv BUILD_ROOT /Users/stefficurran/Desktop/zeni/build/xcode4/../..    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/../..    setenv CACHE_ROOT /var/folders/4v/46g1mjkx2jsdr4z94vsxc9yc0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/4v/46g1mjkx2jsdr4z94vsxc9yc0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/stefficurran/Desktop/zeni/build/xcode4/../../game_d.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/4v/46g1mjkx2jsdr4z94vsxc9yc0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION "Debug Native"    setenv CONFIGURATION_BUILD_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/../..    setenv CONFIGURATION_TEMP_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug    setenv CONTENTS_FOLDER_PATH game_d.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH x86_64    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH game_d.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/game.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME game_d.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/stefficurran/Desktop/zeni/build/xcode4/../..    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH game_d.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH game_d.app/Contents/MacOS    setenv EXECUTABLE_NAME game_d    setenv EXECUTABLE_PATH game_d.app/Contents/MacOS/game_d    setenv FILE_LIST /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH game_d.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/stefficurran/Desktop/zeni/build/xcode4/../..\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME game_d.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD gnu99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_MODEL_TUNING G5    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PREPROCESSOR_DEFINITIONS "_MACOSX _DEBUG DEBUG TEST_NASTY_CONDITIONS DISABLE_CPP11 GLEW_NO_GLU OGG_DLL= VORBIS_DLL= VORBISFILE_DLL= DISABLE_DX9 DISABLE_WGL TINYXML_DLL= TINYXML_EXT= ZENI_DLL= ZENI_EXT= ZENI_AUDIO_DLL= ZENI_AUDIO_EXT= ZENI_CORE_DLL= ZENI_CORE_EXT= ZENI_GRAPHICS_DLL= ZENI_GRAPHICS_EXT= ZENI_NET_DLL= ZENI_NET_EXT= ZENI_REST_DLL= ZENI_REST_EXT="    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/stefficurran/Desktop/zeni/build/xcode4/../../include\" ../../jni/application ../../jni/external/zenilib ../../jni/external/zenilib/zeni_rest ../../jni/external/zenilib/zeni_graphics ../../jni/external/zenilib/zeni_net ../../jni/external/zenilib/zeni_core ../../jni/external/zenilib/zeni_audio ../../jni/external/libvorbis/include ../../jni/external/libogg/include ../../jni/external/zenilib/zeni ../../jni/external/sdl_net ../../jni/external/sdl ../../jni/external/tinyxml"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH game_d.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH game_d.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/game.dst/Users/stefficurran/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER stefficurran    setenv INSTALL_PATH /Users/stefficurran/Applications    setenv INSTALL_ROOT /tmp/game.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH game_d.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/game_d-LinkMap-normal-x86_64.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/stefficurran/Desktop/zeni/build/xcode4/../..\" ../../lib/univ_d"    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_x86_64 /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/Objects-normal/x86_64/game_d.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH game_d.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12E55    setenv MAC_OS_X_VERSION_ACTUAL 1084    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0804    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/Objects-normal    setenv OBJROOT /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CFLAGS "-Qunused-arguments -stdlib=libc++ -ffast-math -fpch-preprocess -Wall"    setenv OTHER_CPLUSPLUSFLAGS "-Qunused-arguments -stdlib=libc++ -ffast-math -fpch-preprocess -Wall"    setenv OTHER_LDFLAGS "-lzeni_rest_d -lzeni_graphics_d -lzeni_net_d -lzeni_core_d -lzeni_audio_d -lzeni_d -llocal_GLEW_d -llocal_SDL_d -stdlib=libc++ -Wl,-rpath,'@loader_path/'"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH game_d.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/PkgInfo    setenv PKGINFO_PATH game_d.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform    setenv PLATFORM_NAME macosx    setenv PLATFORM_PREFERRED_ARCH x86_64    setenv PLATFORM_PRODUCT_BUILD_VERSION 4H1503    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH game_d.app/Contents/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH game_d.app/Contents/PrivateHeaders    setenv PRODUCT_NAME game_d    setenv PRODUCT_SETTINGS_PATH     setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT game    setenv PROJECT_DERIVED_FILE_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/DerivedSources    setenv PROJECT_DIR /Users/stefficurran/Desktop/zeni/build/xcode4    setenv PROJECT_FILE_PATH /Users/stefficurran/Desktop/zeni/build/xcode4/game.xcodeproj    setenv PROJECT_NAME game    setenv PROJECT_TEMP_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build    setenv PROJECT_TEMP_ROOT /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug    setenv PUBLIC_HEADERS_FOLDER_PATH game_d.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/stefficurran/Desktop/zeni/build/xcode4/../..\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH game_d.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SDK_PRODUCT_BUILD_VERSION 12E55    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/../../DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH game_d.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/4v/46g1mjkx2jsdr4z94vsxc9yc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH game_d.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/stefficurran/Desktop/zeni/build/xcode4    setenv SRCROOT /Users/stefficurran/Desktop/zeni/build/xcode4    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_PLATFORMS macosx    setenv SYMROOT /Users/stefficurran/Desktop/zeni/build/xcode4/../..    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME game    setenv TARGET_BUILD_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/../..    setenv TARGET_NAME game    setenv TARGET_TEMP_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build    setenv TEMP_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build    setenv TEMP_FILES_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build    setenv TEMP_FILE_DIR /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build    setenv TEMP_ROOT /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH game_d.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER stefficurran    setenv USER_APPS_DIR /Users/stefficurran/Applications    setenv USER_LIBRARY_DIR /Users/stefficurran/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH game_d.app/Contents/version.plist    setenv VERSION_INFO_BUILDER stefficurran    setenv VERSION_INFO_FILE game_d_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:game_d  PROJECT:game-\""    setenv WARNING_CFLAGS -Wall    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME game_d.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1503    setenv XCODE_VERSION_ACTUAL 0463    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/stefficurran/Desktop/zeni/build/xcode4/obj/Debug/game.build/Script-9607AE1010C857E500CD1376.sh36"0851A6E3-822D-4BBB-85CA-635454C6DCF2-
+
+CTouch /Users/stefficurran/Desktop/zeni/build/xcode4/../../game_d.app
+r0
+
